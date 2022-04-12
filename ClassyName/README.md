@@ -1,7 +1,7 @@
 # ClassyName
 
-Two Dash + React style delimiter is used.
+- Two Dash + React style delimiter is used.
 
-ex)
+- ex)
 
-BlockName__ElementName--modifierName--modifierValue
+- BlockName__ElementName--modifierName--modifierValue
