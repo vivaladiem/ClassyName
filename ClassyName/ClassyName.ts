@@ -5,6 +5,7 @@ class ClassyName {
     private base: string;
     static elementDelimiter = "__";
     static modifierDelimiter = "--";
+    public test: string;
 
     /**
      * 
@@ -33,6 +34,7 @@ class ClassyName {
     }
 
     modifier(modifierName: string, modifierValue?: string): ClassyName {
+
         this.result += " " + this.base + ClassyName.modifierDelimiter + modifierName;
 
         if (modifierValue) {

@@ -24,6 +24,15 @@ class ClassyName {
         return this;
     }
     modifier(modifierName, modifierValue) {
+        if (modifierValue == undefined) {
+            console.log("*test) modifier value is undefined");
+        }
+        if (modifierValue == null) {
+            console.log("*test) modifier value is null");
+        }
+        if (!modifierValue) {
+            console.log("*test) modifierValue == false");
+        }
         this.result += " " + this.base + ClassyName.modifierDelimiter + modifierName;
         if (modifierValue) {
             this.result += ClassyName.modifierDelimiter + modifierValue;

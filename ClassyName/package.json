@@ -1,10 +1,10 @@
 {
   "name": "classy-name",
-  "version": "0.0.0",
-  "description": "ClassyName",
+  "version": "0.5.0",
+  "description": "ClassyName. Micro library for development with react + bem. default delimiter setting is my custom set",
   "main": "app.js",
   "author": {
-    "name": ""
+    "name": "임영우"
   },
   "scripts": {
     "build": "tsc --build",
